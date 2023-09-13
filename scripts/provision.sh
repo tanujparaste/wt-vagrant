@@ -7,7 +7,7 @@ apt-get update
 apt-get install -y vim git unzip screen
 
 # Apache
-apt install -y apache2
+apt-get install -y apache2
 rm -rf /var/www/html
 ln -s /vagrant/mysite /var/www/html
 
