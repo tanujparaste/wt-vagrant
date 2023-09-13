@@ -4,4 +4,4 @@
 apt-get update
 
 # Tools
-apt-get install -y vim git screen nc telnet
+apt-get install -y vim git screen netcat telnetd
