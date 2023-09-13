@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Update UbuntuOS with patches
-apt update
+apt-get update
 
 # Tools
-apt install -y vim git unzip screen
+apt-get install -y vim git unzip screen
 
 # Apache
 apt install -y apache2
@@ -14,10 +14,9 @@ ln -s /vagrant/mysite /var/www/html
 systemctl status apache2
 
 # MySQL
-apt install -y mysql-server
+apt-get install -y mysql-server
 
 systemctl status mysql
-ps -ef | grep mysql
 
 # PHP
-apt-get install php php-cli php-mysql
+apt-get install -y php php-cli php-mysql
