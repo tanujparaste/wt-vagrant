@@ -20,4 +20,4 @@ systemctl status mysql
 ps -ef | grep mysql
 
 # PHP
-apt-get php php-cli php-mysql
+apt-get install php php-cli php-mysql
